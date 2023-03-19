@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 # module AuthorizationHelper
+
 module Sinatra
   module ConvertApp
     module Helpers

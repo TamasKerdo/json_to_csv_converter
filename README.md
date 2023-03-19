@@ -31,8 +31,8 @@ A simple Sinatra-based API for converting JSON data to CSV format.
 1. Clone this repository:
 
 <pre>
-git clone https://github.com/yourusername/json_csv_converter_api.git
-cd json_csv_converter_api
+git clone https://github.com/TamasKerdo/json_to_csv_converter.git
+cd json_to_csv_converter_api
 </pre>
 
 2. Install dependencies:
