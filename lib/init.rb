@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'errors/unauthorized_error'
 require_relative 'jwt/authorization_params_handler'
 require_relative 'jwt/authorizer'
