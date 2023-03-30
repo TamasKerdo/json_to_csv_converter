@@ -19,6 +19,7 @@ module Sinatra
         def authorize
           decoded_token = JWT.decode(token, jwt_secret, true, { algorithm: algorithm })
           return true if decoded_token
+
         rescue JWT::DecodeError
           false
         end

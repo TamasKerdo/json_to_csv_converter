@@ -7,7 +7,7 @@ module Sinatra
   module ConvertApp
     # class JsonToCsvConverter
     class JsonToCsvConverter
-      attr_reader :input_json, :csv
+      attr_reader :input_json
 
       def initialize(body:, options: {})
         @input_json = body
